@@ -1,0 +1,502 @@
+{
+  "intents": [
+  {
+  "tag": "greeting",
+  "patterns": ["Hi", "Hello", "Hey", "Hi there", "Hello there"],
+  "responses": ["Hello,ask your queries!", "Hi,How can I help you?", "Hey!", "Hi there!", "Hello there!"]
+  },
+  {
+  "tag": "cannot_understand",
+  "patterns": ["I cannot understand", "I don't understand", "What do you mean?", "Can you repeat that?", "I'm not sure I understand"],
+  "responses": ["I apologize, could you please rephrase that?", "I'm sorry, I didn't quite catch that. Could you repeat?", "Could you provide more context?", "I'm having trouble understanding. Could you try again?", "Sorry, I couldn't understand. Can you please clarify?"]
+  },
+  {
+  "tag": "thank_you",
+  "patterns": ["Thank you", "Thanks", "Appreciate it", "Thanks a lot", "Thank you very much"],
+  "responses": ["You're welcome!", "You're welcome :)", "Glad I could help!", "No problem!", "Anytime!"]
+  },
+  {
+  "tag": "goodbye",
+  "patterns": ["Goodbye", "Bye", "See you later", "Take care" ],
+  "responses": ["Goodbye!", "Bye!", "See you later!", "Take care!"]
+  },
+  
+  
+  
+
+
+ 
+  {
+    "tag": "student_details_Suveksha_A_2019_2023_Sathasivam_T_2019_2023_Keerthana_M_2019_2023_Sneha_C_2019_2023",
+    "patterns": [
+      "Details of Suveksha A from batch 2019-2023",
+      "What are the details of Suveksha A from batch 2019-23?",
+      "Tell me about Suveksha A from batch 2019-2023",
+      "Who is Suveksha A from batch 2019-2023?",
+     
+      "Details of Sathasivam T from batch 2019-2023",
+      "What are the details of Sathasivam T from batch 2019-23?",
+      "Tell me about Sathasivam T from batch 2019-2023",
+      "Who is Sathasivam T from batch 2019-2023?",
+
+      "Details of Keerthana M from batch 2019-2023",
+        "What are the details of Keerthana M from batch 2019-23?",
+        "Tell me about Keerthana M from batch 2019-2023",
+        "Who is Keerthana M from batch 2019-2023?",
+     
+          "Details of Sneha C from batch 2019-2023",
+          "What are the details of Sneha C from batch 2019-23?",
+          "Tell me about Sneha C from batch 2019-2023",
+          "Who is Sneha C from batch 2019-2023?",
+
+      "Give details of passed out students of batch 2019-23"
+    ],
+    "responses": [
+      "Here are the students details for batch 2019-2023:\nName: Suveksha A\nBatch: 2019-23\nDepartment: CSE\nDesignation: Samsung - Software Development Engineer \n \n \n Name: Sathasivam T\nBatch: 2019-23\nDepartment: CSE\nDesignation: Kovai.co - Associate Software Engineer \n \n \n Name: Keerthana M\nBatch: 2019-23\nDepartment: IT\nDesignation: Developer, Steam A, Coimbatore \n \n \n Name: Sneha C\nBatch: 2019-23\nDepartment: IT\nDesignation: Assistant System Engineer, TCS, Coimbatore"
+    ]
+  },
+
+  {
+    "tag": "student_details_Deepak_Chakravarthy_2018_2022_Saravanan_G_2018_2022_Hemalatha_K_2018_2022_Subbikcha_K_2018_2022_Soorya_J_2018_2022_Harshavardini_N_2018_2022_Mithun_Santhosh_Y_2018_2022_Suvetha_B_2018_2022_Nandhini_S_2018_2022_M_Nithish_2018_2022_G_Yuvan_Sankar_2018_2022",
+    "patterns": [
+      "Details of Deepak Chakravarthy from batch 2018-2022",
+      "What are the details of Deepak Chakravarthy from batch 2018-22?",
+      "Tell me about Deepak Chakravarthy from batch 2018-2022",
+      "Who is Deepak Chakravarthy from batch 2018-2022?",
+
+      "Details of Saravanan G from batch 2018-2022",
+      "What are the details of Saravanan G from batch 2018-22?",
+      "Tell me about Saravanan G from batch 2018-2022",
+      "Who is Saravanan G from batch 2018-2022?",
+
+      "Details of Hemalatha K from batch 2018-2022",
+      "What are the details of Hemalatha K from batch 2018-22?",
+      "Tell me about Hemalatha K from batch 2018-2022",
+      "Who is Hemalatha K from batch 2018-2022?",
+
+      "Details of Subbikcha K from batch 2018-2022",
+        "What are the details of Subbikcha K from batch 2018-22?",
+        "Tell me about Subbikcha K from batch 2018-2022",
+        "Who is Subbikcha K from batch 2018-2022?",
+
+        "Details of Soorya J from batch 2018-2022",
+        "What are the details of Soorya J from batch 2018-22?",
+        "Tell me about Soorya J from batch 2018-2022",
+        "Who is Soorya J from batch 2018-2022?",
+
+        "Details of Harshavardini .N from batch 2018-2022",
+        "What are the details of Harshavardini .N from batch 2018-22?",
+        "Tell me about Harshavardini .N from batch 2018-2022",
+        "Who is Harshavardini .N from batch 2018-2022?",
+
+        "Details of Mithun Santhosh Y from batch 2018-2022",
+        "What are the details of Mithun Santhosh Y from batch 2018-22?",
+        "Tell me about Mithun Santhosh Y from batch 2018-2022",
+        "Who is Mithun Santhosh Y from batch 2018-2022?",
+
+        "Details of Suvetha B from batch 2018-2022",
+        "What are the details of Suvetha B from batch 2018-22?",
+        "Tell me about Suvetha B from batch 2018-2022",
+        "Who is Suvetha B from batch 2018-2022?",
+
+        "Details of Nandhini.S from batch 2018-2022",
+        "What are the details of Nandhini.S from batch 2018-22?",
+        "Tell me about Nandhini.S from batch 2018-2022",
+        "Who is Nandhini.S from batch 2018-2022?",
+
+        "Details of M.Nithish from batch 2018-2022",
+        "What are the details of M.Nithish from batch 2018-22?",
+        "Tell me about M.Nithish from batch 2018-2022",
+        "Who is M.Nithish from batch 2018-2022?",
+
+        "Details of G.Yuvan Sankar from batch 2018-2022",
+        "What are the details of G.Yuvan Sankar from batch 2018-22?",
+        "Tell me about G.Yuvan Sankar from batch 2018-2022",
+        "Who is G.Yuvan Sankar from batch 2018-2022?",
+
+      "Give details of passed out students of batch 2018-22"
+    ],
+    "responses": [
+      "Here are the students details for batch 2018-2022:\nName: Deepak Chakravarthy\nBatch: 2018-22\nDepartment: CSE\nDesignation: Kovai.co - Junior Software Engineer \n \n \n Name: Saravanan G\nBatch: 2018-22\nDepartment: CSE\nDesignation: Raja Software Labs Pvt Ltd. \n \n \n Name: Hemalatha K\nBatch: 2018-22\nDepartment: CSE\nDesignation: CTS - Programmer Analyst \n \n \n Name: Subbikcha K\nBatch: 2018-22\nDepartment: ECE\nDesignation: Application Developer, Thoughtworks, Bengaluru \n \n \n Name: Soorya J\nBatch: 2018-22\nDepartment: ECE\nDesignation: Software Engineer, Matrimony.com, Chennai \n \n \n Name: Harshavardini .N\nBatch: 2018-22\nDepartment: ECE\nDesignation: Infosys Limited, Chennai \n \n \n Name: Mithun Santhosh Y\nBatch: 2018-22\nDepartment: IT\nDesignation: Software Engineer, TCS, Coimbatore \n \n \n Name: Suvetha B\nBatch: 2018-22\nDepartment: IT\nDesignation: Developer, Zoho, Coimbatore \n \n \n Name: Nandhini.S\nBatch: 2018-22\nDepartment: IT\nDesignation: Senior System Engineer, Thought Works, Coimbatore \n \n \n Name: M.Nithish\nBatch: 2018-22\nDepartment: CIVIL\nDesignation: Executive Engineer, Malar Builders, Coimbatore \n \n \n Name: G.Yuvan Sankar\nBatch: 2018-22\nDepartment: CIVIL\nDesignation: Site Engineer, KK Builders, Coimbatore" 
+    ]
+  },
+
+
+  {
+    "tag": "student_details_Santhosh_M_2017_2021_Solomon_Raj_2017_2021_Rahul_Prabhu_2017_2021_Solomon_C_2017_2021_Santhosh_M_2017_2021_Anjali_Baburaj_2017_2021_Pavithrayani_K_2017_2021_Swetha_Lakshmi_P_2017_2021_M_IlayaBharathi_2017_2021_A_Samshapin_2017_2021",
+    "patterns": [
+      "Details of Santhosh M from batch 2017-2021",
+      "What are the details of Santhosh M from batch 2017-21?",
+      "Tell me about Santhosh M from batch 2017-2021",
+      "Who is Santhosh M from batch 2017-2021?",
+
+
+      "Details of Solomon Raj from batch 2017-2021",
+      "What are the details of Solomon Raj from batch 2017-21?",
+      "Tell me about Solomon Raj from batch 2017-2021",
+      "Who is Solomon Raj from batch 2017-2021?",
+
+
+      "Details of Rahul Prabhu from batch 2017-2021",
+      "What are the details of Rahul Prabhu from batch 2017-21?",
+      "Tell me about Rahul Prabhu from batch 2017-2021",
+      "Who is Rahul Prabhu from batch 2017-2021?",
+
+      "Details of Solomon C from batch 2017-2021",
+      "What are the details of Solomon C from batch 2017-21?",
+      "Tell me about Solomon C from batch 2017-2021",
+      "Who is Solomon C from batch 2017-2021?",
+
+      "Details of Santhosh M from batch 2017-2021",
+      "What are the details of Santhosh M from batch 2017-21?",
+      "Tell me about Santhosh M from batch 2017-2021",
+      "Who is Santhosh M from batch 2017-2021?",
+
+      "Details of Anjali Baburaj from batch 2017-2021",
+        "What are the details of Anjali Baburaj from batch 2017-21?",
+        "Tell me about Anjali Baburaj from batch 2017-2021",
+        "Who is Anjali Baburaj from batch 2017-2021?",
+
+        "Details of Pavithrayani K from batch 2017-2021",
+        "What are the details of Pavithrayani K from batch 2017-21?",
+        "Tell me about Pavithrayani K from batch 2017-2021",
+        "Who is Pavithrayani K from batch 2017-2021?",
+
+        "Details of Swetha Lakshmi P from batch 2017-2021",
+        "What are the details of Swetha Lakshmi P from batch 2017-21?",
+        "Tell me about Swetha Lakshmi P from batch 2017-2021",
+        "Who is Swetha Lakshmi P from batch 2017-2021?",
+
+        "Details of M.IlayaBharathi from batch 2017-2021",
+        "What are the details of M.IlayaBharathi from batch 2017-21?",
+        "Tell me about M.IlayaBharathi from batch 2017-2021",
+        "Who is M.IlayaBharathi from batch 2017-2021?",
+
+        "Details of A.Samshapin from batch 2017-2021",
+        "What are the details of A.Samshapin from batch 2017-21?",
+        "Tell me about A.Samshapin from batch 2017-2021",
+        "Who is A.Samshapin from batch 2017-2021?",
+
+      "Give details of passed out students of batch 2017-21"
+    ],
+    "responses": [
+      "Here are the  students details for batch 2017-2021:\nName: Santhosh M\nBatch: 2017-21\nDepartment: CSE\nDesignation: QAD India Pvt. Ltd \n \n \n Name: Solomon Raj\nBatch: 2017-21\nDepartment: CSE\nDesignation: Presidio - Cloud Engineer Trainee \n \n \n Name: Rahul Prabhu\nBatch: 2017-21\nDepartment: CSE\nDesignation: Presidio - Cloud Engineer Trainee \n \n \n Name: Solomon C\nBatch: 2017-21\nDepartment: MECH\nDesignation: Design Engineer, Segula Technologies \n \n \n Name: Santhosh M\nBatch: 2017-21\nDepartment: MECH\nDesignation: Piping Detailer, Abu Dabhi \n \n \n Name: Anjali Baburaj\nBatch: 2017-21\nDepartment: ECE\nDesignation: Senior System Engineer, Cognizant Technology Solutions, Coimbatore \n \n \n Name: Pavithrayani K\nBatch: 2017-21\nDepartment: IT\nDesignation: Software Engineer, TCS, Coimbatore \n \n \n Name: Swetha Lakshmi P\nBatch: 2017-21\nDepartment: IT\nDesignation: Software Engineer, UBX Cloud, Coimbatore \n \n \n Name: M.IlayaBharathi\nBatch: 2017-21\nDepartment: CIVIL\nDesignation: RR Square Constructions, Coimbatore \n \n \n Name: A.Samshapin\nBatch: 2017-21\nDepartment: CIVIL\nDesignation: Supervisor Engineer, Central Water Commission, Kerala"
+    ]
+  },
+
+  {
+    "tag": "student_details_Kishore_Raj_R_R_2016_2020_Meenakshi_H_2016_2020_Sathiya_Priyan_S_2016_2020_Mervin_Anand_Antony_F_B_2016_2020_Sorna_Mugi_V_2016_2020_Revanth_R_2016_2020_Priyadharshini_V_2016_2020_Ms_Nandhini_2016_2020_Jahazhil_Samraj_2016_2020_B_Narendiran_2016_2020",
+    "patterns": [
+      "Details of Kishore Raj R R from batch 2016-2020",
+      "What are the details of Kishore Raj R R from batch 2016-20?",
+      "Tell me about Kishore Raj R R from batch 2016-2020",
+      "Who is Kishore Raj R R from batch 2016-2020?",
+
+      "Details of Meenakshi H from batch 2016-2020",
+      "What are the details of Meenakshi H from batch 2016-20?",
+      "Tell me about Meenakshi H from batch 2016-2020",
+      "Who is Meenakshi H from batch 2016-2020?",
+
+      "Details of Sathiya Priyan S from batch 2016-2020",
+      "What are the details of Sathiya Priyan S from batch 2016-20?",
+      "Tell me about Sathiya Priyan S from batch 2016-2020",
+      "Who is Sathiya Priyan S from batch 2016-2020?",
+
+      "Details of Mervin Anand Antony F.B from batch 2016-2020",
+        "What are the details of Mervin Anand Antony F.B from batch 2016-20?",
+        "Tell me about Mervin Anand Antony F.B from batch 2016-2020",
+        "Who is Mervin Anand Antony F.B from batch 2016-2020?",
+        
+
+        "Details of Sorna Mugi V from batch 2016-2020",
+        "What are the details of Sorna Mugi V from batch 2016-20?",
+        "Tell me about Sorna Mugi V from batch 2016-2020",
+        "Who is Sorna Mugi V from batch 2016-2020?",
+      
+          "Details of Revanth R from batch 2016-2020",
+          "What are the details of Revanth R from batch 2016-20?",
+          "Tell me about Revanth R from batch 2016-2020",
+          "Who is Revanth R from batch 2016-2020?",
+
+          "Details of Priyadharshini V from batch 2016-2020",
+          "What are the details of Priyadharshini V from batch 2016-20?",
+          "Tell me about Priyadharshini V from batch 2016-2020",
+          "Who is Priyadharshini V from batch 2016-2020?",
+          
+          "Details of Ms. Nandhini from batch 2016-2020",
+          "What are the details of Ms. Nandhini from batch 2016-20?",
+          "Tell me about Ms. Nandhini from batch 2016-2020",
+          "Who is Ms. Nandhini from batch 2016-2020?",
+
+          "Details of Jahazhil Samraj from batch 2016-2020",
+          "What are the details of Jahazhil Samraj from batch 2016-20?",
+          "Tell me about Jahazhil Samraj from batch 2016-2020",
+          "Who is Jahazhil Samraj from batch 2016-2020?",
+
+          "Details of B.Narendiran from batch 2016-2020",
+          "What are the details of B.Narendiran from batch 2016-20?",
+          "Tell me about B.Narendiran from batch 2016-2020",
+          "Who is B.Narendiran from batch 2016-2020?",
+
+      "Give details of passed out students of batch 2016-20"
+    ],
+    "responses": [
+      "Here are the students details for batch 2016-2020:\nName: Kishore Raj R R\nBatch: 2016-20\nDepartment: CSE\nDesignation: Coding Mart - Product Engineer Trainee \n \n \n Name: Meenakshi H\nBatch: 2016-20\nDepartment: CSE\nDesignation: Capgemini - Analyst \n \n \n Name: Sathiya Priyan S\nBatch: 2016-20\nDepartment: MECH\nDesignation: Andriod Developer, Reliance JIO, Bangalore \n \n \n Name: Mervin Anand Antony F.B\nBatch: 2016-20\nDepartment: MECH\nDesignation: Project Engineer, JETAVI Engineering Pvt Ltd \n \n \n Name: Sorna Mugi V\nBatch: 2016-20\nDepartment: ECE\nDesignation: Yield Engineer, Global Foundries, Bengaluru \n \n \n Name: Revanth R\nBatch: 2016-20\nDepartment: ECE\nDesignation: Software Developer Engineer, IQVIA, Bengaluru \n \n \n Name: Priyadharshini V\nBatch: 2016-20\nDepartment: ECE\nDesignation: Associate -Projects Cognizant Technology Solutions, Coimbatore \n \n \n Name: Ms. Nandhini\nBatch: 2016-20\nDepartment: IT\nDesignation: Associate Consultant, IBM, Coimbatore \n \n \n Name: Jahazhil Samraj\nBatch: 2016-20\nDepartment: IT\nDesignation: Associate Engineer, Delta Airlines, Bengaluru \n \n \n Name: B.Narendiran\nBatch: 2016-20\nDepartment: CIVIL\nDesignation: Mr Cooper, Chennai"
+    ]
+  },
+
+  {
+    "tag": "student_details_Prema_S_2015_2019_Krishna_Divya_2015_2019_Mohamed_Faizal_2015_2019_Ranjith_Kumar_R_2015_2019_Vignesh_A_K_2015_2019_S_Deepika_2015_2019",
+    "patterns": [
+      "Details of Prema S from batch 2015-2019",
+      "What are the details of Prema S from batch 2015-19?",
+      "Tell me about Prema S from batch 2015-2019",
+      "Who is Prema S from batch 2015-2019?",
+
+
+      "Details of Krishna Divya from batch 2015-2019",
+      "What are the details of Krishna Divya from batch 2015-19?",
+      "Tell me about Krishna Divya from batch 2015-2019",
+      "Who is Krishna Divya from batch 2015-2019?",
+
+      "Details of Mohamed Faizal from batch 2015-2019",
+        "What are the details of Mohamed Faizal from batch 2015-19?",
+        "Tell me about Mohamed Faizal from batch 2015-2019",
+        "Who is Mohamed Faizal from batch 2015-2019?",
+
+        "Details of Ranjith Kumar R from batch 2015-2019",
+        "What are the details of Ranjith Kumar R from batch 2015-19?",
+        "Tell me about Ranjith Kumar R from batch 2015-2019",
+        "Who is Ranjith Kumar R from batch 2015-2019?",
+
+        "Details of Vignesh A K from batch 2015-2019",
+        "What are the details of Vignesh A K from batch 2015-19?",
+        "Tell me about Vignesh A K from batch 2015-2019",
+        "Who is Vignesh A K from batch 2015-2019?",
+
+        "Details of S.Deepika from batch 2015-2019",
+        "What are the details of S.Deepika from batch 2015-19?",
+        "Tell me about S.Deepika from batch 2015-2019",
+        "Who is S.Deepika from batch 2015-2019?",
+
+      "Give details of passed out students of batch 2015-19"
+    ],
+    "responses": [
+      "Here are the students details for batch 2015-2019:\nName: Prema S\nBatch: 2015-19\nDepartment: CSE\nDesignation: Valtech India Private Limited - Associate Software Engineer \n \n \n Name: Krishna Divya\nBatch: 2015-19\nDepartment: CSE\nDesignation: TCS - Assistant System Engineer- Trainee \n \n \n Name: Mohamed Faizal\nBatch: 2015-19\nDepartment: MECH\nDesignation: Manager - operations and Sales, Limitless360, Coimbatore \n \n \n Name: Ranjith Kumar R\nBatch: 2015-19\nDepartment: MECH\nDesignation: Implementation Manager, Vestas R & D Technology Pvt. Ltd \n \n \n Name: Vignesh A K\nBatch: 2015-19\nDepartment: MECH\nDesignation: Proprietor, Aishwarya Polymers, Karur \n \n \n Name: S.Deepika\nBatch: 2015-19\nDepartment: CIVIL\nDesignation: Jaganath Constructions, Sathyamangalam"
+    ]
+  },
+
+ 
+  {
+    "tag": "student_details_Priyanka_R_2014_2018_Aravindhan_S_2014_2018_Mohammed_Sikkander_K_2014_2018_Pradeeph_V_2014_2018_Sakthivel_S_2014_2018_D_Abhishek_2014_2018_A_Shyam_Sundar_2014_2018",
+    "patterns": [
+      "Details of Priyanka R from batch 2014-2018",
+      "What are the details of Priyanka R from batch 2014-18?",
+      "Tell me about Priyanka R from batch 2014-2018",
+      "Who is Priyanka R from batch 2014-2018?",
+
+      "Details of Aravindhan S from batch 2014-2018",
+      "What are the details of Aravindhan S from batch 2014-18?",
+      "Tell me about Aravindhan S from batch 2014-2018",
+      "Who is Aravindhan S from batch 2014-2018?",
+
+      "Details of Mohammed Sikkander K from batch 2014-2018",
+        "What are the details of Mohammed Sikkander K from batch 2014-18?",
+        "Tell me about Mohammed Sikkander K from batch 2014-2018",
+        "Who is Mohammed Sikkander K from batch 2014-2018?",
+
+        "Details of Pradeeph V from batch 2014-2018",
+        "What are the details of Pradeeph V from batch 2014-18?",
+        "Tell me about Pradeeph V from batch 2014-2018",
+        "Who is Pradeeph V from batch 2014-2018?",
+
+        "Details of Sakthivel S from batch 2014-2018",
+        "What are the details of Sakthivel S from batch 2014-18?",
+        "Tell me about Sakthivel S from batch 2014-2018",
+        "Who is Sakthivel S from batch 2014-2018?",
+
+        "Details of D.Abhishek from batch 2014-2018",
+        "What are the details of D.Abhishek from batch 2014-18?",
+        "Tell me about D.Abhishek from batch 2014-2018",
+        "Who is D.Abhishek from batch 2014-2018?",
+
+        "Details of A.Shyam Sundar from batch 2014-2018",
+        "What are the details of A.Shyam Sundar from batch 2014-18?",
+        "Tell me about A.Shyam Sundar from batch 2014-2018",
+        "Who is A.Shyam Sundar from batch 2014-2018?",
+
+
+      "Give details of passed out students of batch 2014-18"
+    ],
+    "responses": [
+      "Here are the students details for batch 2014-2018:\nName: Priyanka R\nBatch: 2014-18\nDepartment: CSE\nDesignation: FACE - Associate \n \n \n Name: Aravindhan S\nBatch: 2014-18\nDepartment: CSE\nDesignation: Ugam Solutions - Associate Analyst- Research Operation \n \n \n Name: Mohammed Sikkander K\nBatch: 2014-18\nDepartment: MECH\nDesignation: Proprietor, KMS Engineering Works \n \n \n Name: Pradeeph V\nBatch: 2014-18\nDepartment: MECH\nDesignation: Proprietor, Gurudeeph Industries, Coimbatore \n \n \n Name: Sakthivel S\nBatch: 2014-18\nDepartment: ECE\nDesignation: Senior Software Engineer, Aptiv, Bengaluru \n \n \n Name: D.Abhishek\nBatch: 2014-18\nDepartment: CIVIL\nDesignation: Structural Engineer, Design Build, Coimbatore \n \n \n Name: A.Shyam Sundar\nBatch: 2014-18\nDepartment: CIVIL\nDesignation: Senior Quality Engineer, Casagrande, Bangalore"
+    ]
+  },
+
+  {
+    "tag": "student_details_Rakesh_2013_2017_Sakthi_S_2013_2017_Sushildhar_S_2013_2017",
+    "patterns": [
+        "Details of Rakesh from batch 2013-2017",
+        "What are the details of Rakesh from batch 2013-17?",
+        "Tell me about Rakesh from batch 2013-2017",
+        "Who is Rakesh from batch 2013-2017?",
+
+
+        "Details of Sakthi S from batch 2013-2017",
+        "What are the details of Sakthi S from batch 2013-17?",
+        "Tell me about Sakthi S from batch 2013-2017",
+        "Who is Sakthi S from batch 2013-2017?",
+
+        "Details of Sushildhar S from batch 2013-2017",
+      "What are the details of Sushildhar S from batch 2013-17?",
+      "Tell me about Sushildhar S from batch 2013-2017",
+      "Who is Sushildhar S from batch 2013-2017?",
+
+        "Give details of passed out students of batch 2013-17"
+    ],
+    "responses": [
+        "Here are the students details for batch 2013-2017:\nName: Rakesh\nBatch: 2013-17\nDepartment: MECH\nDesignation: Kardex, Bangalore \n \n \n Name: Sakthi S\nBatch: 2013-17\nDepartment: MECH\nDesignation: Proprietor, Techzo Impex Pvt Ltd \n \n \n Name: Sushildhar S\nBatch: 2013-17\nDepartment: ECE\nDesignation: Senior Software Engineer, Visa, Bengaluru"
+    ]
+},
+
+{
+  "tag": "student_details_Madhu_sudan_G_2012_2016_Gowtham_K_2012_2016_Subhiksha_C_R_2012_2016_Gokul_A_2012_2016",
+  "patterns": [
+      "Details of Madhu sudan G from batch 2012-2016",
+      "What are the details of Madhu sudan G from batch 2012-16?",
+      "Tell me about Madhu sudan G from batch 2012-2016",
+      "Who is Madhu sudan G from batch 2012-2016?",
+
+      "Details of Gowtham K from batch 2012-2016",
+      "What are the details of Gowtham K from batch 2012-16?",
+      "Tell me about Gowtham K from batch 2012-2016",
+      "Who is Gowtham K from batch 2012-2016?",
+
+      "Details of Subhiksha C R from batch 2012-2016",
+      "What are the details of Subhiksha C R from batch 2012-2016?",
+      "Tell me about Subhiksha C R from batch 2012-16",
+      "Who is Subhiksha C R from batch 2012-16?",
+
+      "Details of Gokul A from batch 2012-2016",
+    "What are the details of Gokul A from batch 2012-16?",
+    "Tell me about Gokul A from batch 2012-2016",
+    "Who is Gokul A from batch 2012-2016?",
+
+      "Give details of passed out students of batch 2012-16"
+  ],
+  "responses": [
+      "Here are the students details for batch 2012-2016:\nName: Madhu sudan G\nBatch: 2012-16\nDepartment: MECH\nDesignation: Maxbyte technologies \n \n \n Name: Gowtham K\nBatch: 2012-16\nDepartment: MECH\nDesignation: FujiSakura Technologies Pvt.Ltd,Japan \n \n \n Name: Subhiksha C R\nBatch: 2012-16\nDepartment: CSE\nDesignation: The Skanda Corp \n \n \n Name: Gokul A\nBatch: 2012-16\nDepartment: ECE\nDesignation: Design Team Lead, Caliber Interconnect Solutions Pvt Ltd, Coimbatore"
+  ]
+},
+
+{
+  "tag": "student_details_Kannammai_R_2012_2016",
+  "patterns": [
+      "Details of Kannammai R from batch 2012-2016",
+      "What are the details of Kannammai R from batch 2012-16?",
+      "Tell me about Kannammai R from batch 2012-2016",
+      "Who is Kannammai R from batch 2012-2016?",
+      "Give details of passed out students of batch 2012-16"
+  ],
+  "responses": [
+      "Here are the details for batch 2012-2016:\nName: Kannammai R\nBatch: 2012-16\nDepartment: IT\nDesignation: Senior Software Engineer, Robert Bosch Engineering & Business Solutions, Coimbatore"
+  ]
+},
+{
+  "tag": "student_details_Salma_Begum_S_2012_2016",
+  "patterns": [
+      "Details of Salma Begum.S from batch 2012-2016",
+      "What are the details of Salma Begum.S from batch 2012-16?",
+      "Tell me about Salma Begum.S from batch 2012-2016",
+      "Who is Salma Begum.S from batch 2012-2016?",
+      "Give details of passed out students of batch 2012-16"
+  ],
+  "responses": [
+      "Here are the details for batch 2012-2016:\nName: Salma Begum.S\nBatch: 2012-16\nDepartment: IT\nDesignation: Associate Tech Specialist, Tech Mahindra Coimbatore"
+  ]
+},
+{
+  "tag": "student_details_Emi_Tharanya_L_2012_2017_Praveen_R_2012_2017",
+  "patterns": [
+      "Details of Emi Tharanya L from batch 2012-2017",
+      "What are the details of Emi Tharanya L from batch 2012-17?",
+      "Tell me about Emi Tharanya L from batch 2012-2017",
+      "Who is Emi Tharanya L from batch 2012-2017?",
+
+      "Details of Praveen.R from batch 2012-2017",
+      "What are the details of Praveen.R from batch 2012-17?",
+      "Tell me about Praveen.R from batch 2012-2017",
+      "Who is Praveen.R from batch 2012-2017?",
+
+      "Give details of passed out students of batch 2012-17"
+
+      
+  ],
+  "responses": [
+      "Here are the details for batch 2012-2017:\nName: Emi Tharanya L\nBatch: 2012-17\nDepartment: IT\nDesignation: Analyst, JP Morgan Chase & Co \n \n \n Name: Praveen.R\nBatch: 2012-17\nDepartment: IT\nDesignation: Frontend Engineer, Amazon, Coimbatore"
+  ]
+},
+
+{
+  "tag": "student_details_Mr_Aswathi_S_Nair_2012_2018",
+  "patterns": [
+      "Details of Mr. Aswathi S Nair from batch 2012-2018",
+      "What are the details of Mr. Aswathi S Nair from batch 2012-18?",
+      "Tell me about Mr. Aswathi S Nair from batch 2012-2018",
+      "Who is Mr. Aswathi S Nair from batch 2012-2018?",
+      "Give details of passed out students of batch 2012-18"
+  ],
+  "responses": [
+      "Here are the details for batch 2012-2018:\nName: Mr. Aswathi S Nair\nBatch: 2012-18\nDepartment: IT\nDesignation: Associate Engineer, State Bank of India, Saravanampatty, Coimbatore"
+  ]
+},
+
+  {
+    "tag": "student_details_Poornakumar_S_B_2011_2015_Arun_Prakash_N_2011_2015",
+    "patterns": [
+        "Details of Poornakumar S B from batch 2011-2015",
+        "What are the details of Poornakumar S B from batch 2011-15?",
+        "Tell me about Poornakumar S B from batch 2011-2015",
+        "Who is Poornakumar S B from batch 2011-2015?",
+
+        "Details of Arun Prakash N from batch 2011-2015",
+        "What are the details of Arun Prakash N from batch 2011-15?",
+        "Tell me about Arun Prakash N from batch 2011-2015",
+        "Who is Arun Prakash N from batch 2011-2015?",
+
+        "Give details of passed out students of batch 2011-15"
+    ],
+    "responses": [
+        "Here are the students details for batch 2011-2015:\nName: Poornakumar S B\nBatch: 2011-15\nDepartment: MECH\nDesignation: Proprietor, Greystone Industries, Kovilpalayam Coimbatore \n \n \n Name: Arun Prakash N\nBatch: 2011-15\nDepartment: MECH\nDesignation: PCE Technology, Foxconn"
+    ]
+},
+
+
+{
+  "tag": "student_details_Suriya_Kumar_N_2008_2012",
+  "patterns": [
+      "Details of Suriya Kumar N from batch 2008-2012",
+      "What are the details of Suriya Kumar N from batch 2008-12?",
+      "Tell me about Suriya Kumar N from batch 2008-2012",
+      "Who is Suriya Kumar N from batch 2008-2012?",
+      "Give details of passed out students of batch 2008-12"
+  ],
+  "responses": [
+      "Here are the students details for batch 2008-2012:\nName: Suriya Kumar N\nBatch: 2008-12\nDepartment: ECE\nDesignation: Project Manager, Robert Bosch, Coimbatore"
+  ]
+}
+  
+  
+  
+  
+  
+  
+  
+    ]
+  }
+  
+  
+  
+  
+  
+  
